@@ -1,8 +1,9 @@
 # Relaciones con Laravel
+![laravel-8-jetstream](https://user-images.githubusercontent.com/36399447/107413788-7070f880-6b11-11eb-89ca-f58500eab36c.png)
 Es un proyecto Laravel.
 El proyecto trata de tener persistencia de datos con una base de datos y de tener relacionadas dos tablas diferentes llamadas frases y autor.
 
-### Prerequisitos
+### Pre-requisitos
 
 Qué cosas necesitamos antes de empezar:
 
