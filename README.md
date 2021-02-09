@@ -24,8 +24,6 @@ En estas URLs podemos visualizar la creación en servidor de BD:
 * http://www.oscarabadfolgueira.com/crear-una-base-datos-mysql-desde-consola/
 
 Luego de crear la base de datos modificamos el archivo .env con los parámetros **nombre de la BD, usuario y password**.
-## Inserción de datos
-Podemos insertar los siguientes datos en las tablas:
 
 ## Ejecución
 ```
@@ -41,6 +39,8 @@ $  composer install
 $  php artisan serve
 ```
 
+## Inserción de datos
+Podemos insertar los siguientes datos en las tablas luego de haberlas creado con php artisan migrate:
 ## Authors
 
 * **Javier Bernal** - *Initial work* 
