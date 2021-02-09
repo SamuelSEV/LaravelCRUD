@@ -16,7 +16,7 @@ class AutorController extends Controller
      */
     public function index()
     {
-        $autor = Autor::latest()->paginate(15);
+        $autor = Autor::first()->paginate(15);
   
         return view('autor.index',compact('autor'))
             ->with('i', (request()->input('page', 1) - 1) * 5);
