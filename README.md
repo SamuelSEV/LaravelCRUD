@@ -32,6 +32,7 @@ Para ejecutar, nos vamos al raíz del proyecto  y ejecutamos los comandos siguie
 $  php artisan migrate
 $  composer install
 $  php artisan serve
+localhost:puerto/autor
 ```
 
 ## Inserción de datos
